@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6459018238399AE0069571F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6459017238399AE0069571F /* AppDelegate.m */; };
+		B645901B238399AE0069571F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B645901A238399AE0069571F /* SceneDelegate.m */; };
+		B645901E238399AE0069571F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B645901D238399AE0069571F /* ViewController.m */; };
+		B6459021238399AE0069571F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B645901F238399AE0069571F /* Main.storyboard */; };
+		B6459023238399B00069571F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6459022238399B00069571F /* Assets.xcassets */; };
+		B6459026238399B00069571F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6459024238399B00069571F /* LaunchScreen.storyboard */; };
+		B6459029238399B00069571F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6459028238399B00069571F /* main.m */; };
+		B6459033238399B00069571F /* SINPagerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6459032238399B00069571F /* SINPagerViewControllerTests.m */; };
+		B645903E238399B00069571F /* SINPagerViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B645903D238399B00069571F /* SINPagerViewControllerUITests.m */; };
+		B645904D23839AFB0069571F /* SINTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = B645904C23839AFB0069571F /* SINTabView.m */; };
+		B64590502383C0DA0069571F /* SINTabFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B645904F2383C0DA0069571F /* SINTabFlowLayout.m */; };
+		B64590532383C4DB0069571F /* SINTabTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B64590522383C4DB0069571F /* SINTabTextCell.m */; };
+		B64590572383D6340069571F /* SINChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B64590562383D6340069571F /* SINChannelModel.m */; };
+		B645905A2383DB490069571F /* SINPagerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B64590592383DB490069571F /* SINPagerConfig.m */; };
+		B645905D238400EF0069571F /* SINPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B645905C238400EF0069571F /* SINPagerViewController.m */; };
+		B6459060238536570069571F /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = B645905F238536570069571F /* ViewController1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B645902F238399B00069571F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B645900B238399AE0069571F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6459012238399AE0069571F;
+			remoteInfo = SINPagerViewController;
+		};
+		B645903A238399B00069571F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B645900B238399AE0069571F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6459012238399AE0069571F;
+			remoteInfo = SINPagerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6459013238399AE0069571F /* SINPagerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SINPagerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6459016238399AE0069571F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6459017238399AE0069571F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6459019238399AE0069571F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B645901A238399AE0069571F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B645901C238399AE0069571F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B645901D238399AE0069571F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6459020238399AE0069571F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6459022238399B00069571F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6459025238399B00069571F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6459027238399B00069571F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6459028238399B00069571F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B645902E238399B00069571F /* SINPagerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SINPagerViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6459032238399B00069571F /* SINPagerViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINPagerViewControllerTests.m; sourceTree = "<group>"; };
+		B6459034238399B00069571F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6459039238399B00069571F /* SINPagerViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SINPagerViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B645903D238399B00069571F /* SINPagerViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINPagerViewControllerUITests.m; sourceTree = "<group>"; };
+		B645903F238399B00069571F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B645904B23839AFB0069571F /* SINTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINTabView.h; sourceTree = "<group>"; };
+		B645904C23839AFB0069571F /* SINTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINTabView.m; sourceTree = "<group>"; };
+		B645904E2383C0DA0069571F /* SINTabFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINTabFlowLayout.h; sourceTree = "<group>"; };
+		B645904F2383C0DA0069571F /* SINTabFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINTabFlowLayout.m; sourceTree = "<group>"; };
+		B64590512383C4DB0069571F /* SINTabTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINTabTextCell.h; sourceTree = "<group>"; };
+		B64590522383C4DB0069571F /* SINTabTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINTabTextCell.m; sourceTree = "<group>"; };
+		B64590542383C7390069571F /* SINTabCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINTabCellProtocol.h; sourceTree = "<group>"; };
+		B64590552383D6340069571F /* SINChannelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINChannelModel.h; sourceTree = "<group>"; };
+		B64590562383D6340069571F /* SINChannelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINChannelModel.m; sourceTree = "<group>"; };
+		B64590582383DB490069571F /* SINPagerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINPagerConfig.h; sourceTree = "<group>"; };
+		B64590592383DB490069571F /* SINPagerConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINPagerConfig.m; sourceTree = "<group>"; };
+		B645905B238400EF0069571F /* SINPagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SINPagerViewController.h; sourceTree = "<group>"; };
+		B645905C238400EF0069571F /* SINPagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SINPagerViewController.m; sourceTree = "<group>"; };
+		B645905E238536570069571F /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		B645905F238536570069571F /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6459010238399AE0069571F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B645902B238399B00069571F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6459036238399B00069571F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B645900A238399AE0069571F = {
+			isa = PBXGroup;
+			children = (
+				B6459015238399AE0069571F /* SINPagerViewController */,
+				B6459031238399B00069571F /* SINPagerViewControllerTests */,
+				B645903C238399B00069571F /* SINPagerViewControllerUITests */,
+				B6459014238399AE0069571F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6459014238399AE0069571F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6459013238399AE0069571F /* SINPagerViewController.app */,
+				B645902E238399B00069571F /* SINPagerViewControllerTests.xctest */,
+				B6459039238399B00069571F /* SINPagerViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6459015238399AE0069571F /* SINPagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6459016238399AE0069571F /* AppDelegate.h */,
+				B6459017238399AE0069571F /* AppDelegate.m */,
+				B6459019238399AE0069571F /* SceneDelegate.h */,
+				B645901A238399AE0069571F /* SceneDelegate.m */,
+				B645901C238399AE0069571F /* ViewController.h */,
+				B645901D238399AE0069571F /* ViewController.m */,
+				B645905B238400EF0069571F /* SINPagerViewController.h */,
+				B645905C238400EF0069571F /* SINPagerViewController.m */,
+				B645904B23839AFB0069571F /* SINTabView.h */,
+				B645904C23839AFB0069571F /* SINTabView.m */,
+				B645904E2383C0DA0069571F /* SINTabFlowLayout.h */,
+				B645904F2383C0DA0069571F /* SINTabFlowLayout.m */,
+				B64590512383C4DB0069571F /* SINTabTextCell.h */,
+				B64590522383C4DB0069571F /* SINTabTextCell.m */,
+				B64590542383C7390069571F /* SINTabCellProtocol.h */,
+				B64590552383D6340069571F /* SINChannelModel.h */,
+				B64590562383D6340069571F /* SINChannelModel.m */,
+				B64590582383DB490069571F /* SINPagerConfig.h */,
+				B64590592383DB490069571F /* SINPagerConfig.m */,
+				B645901F238399AE0069571F /* Main.storyboard */,
+				B6459022238399B00069571F /* Assets.xcassets */,
+				B6459024238399B00069571F /* LaunchScreen.storyboard */,
+				B6459027238399B00069571F /* Info.plist */,
+				B6459028238399B00069571F /* main.m */,
+				B645905E238536570069571F /* ViewController1.h */,
+				B645905F238536570069571F /* ViewController1.m */,
+			);
+			path = SINPagerViewController;
+			sourceTree = "<group>";
+		};
+		B6459031238399B00069571F /* SINPagerViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6459032238399B00069571F /* SINPagerViewControllerTests.m */,
+				B6459034238399B00069571F /* Info.plist */,
+			);
+			path = SINPagerViewControllerTests;
+			sourceTree = "<group>";
+		};
+		B645903C238399B00069571F /* SINPagerViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B645903D238399B00069571F /* SINPagerViewControllerUITests.m */,
+				B645903F238399B00069571F /* Info.plist */,
+			);
+			path = SINPagerViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6459012238399AE0069571F /* SINPagerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6459042238399B00069571F /* Build configuration list for PBXNativeTarget "SINPagerViewController" */;
+			buildPhases = (
+				B645900F238399AE0069571F /* Sources */,
+				B6459010238399AE0069571F /* Frameworks */,
+				B6459011238399AE0069571F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SINPagerViewController;
+			productName = SINPagerViewController;
+			productReference = B6459013238399AE0069571F /* SINPagerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B645902D238399B00069571F /* SINPagerViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6459045238399B00069571F /* Build configuration list for PBXNativeTarget "SINPagerViewControllerTests" */;
+			buildPhases = (
+				B645902A238399B00069571F /* Sources */,
+				B645902B238399B00069571F /* Frameworks */,
+				B645902C238399B00069571F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6459030238399B00069571F /* PBXTargetDependency */,
+			);
+			name = SINPagerViewControllerTests;
+			productName = SINPagerViewControllerTests;
+			productReference = B645902E238399B00069571F /* SINPagerViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6459038238399B00069571F /* SINPagerViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6459048238399B00069571F /* Build configuration list for PBXNativeTarget "SINPagerViewControllerUITests" */;
+			buildPhases = (
+				B6459035238399B00069571F /* Sources */,
+				B6459036238399B00069571F /* Frameworks */,
+				B6459037238399B00069571F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B645903B238399B00069571F /* PBXTargetDependency */,
+			);
+			name = SINPagerViewControllerUITests;
+			productName = SINPagerViewControllerUITests;
+			productReference = B6459039238399B00069571F /* SINPagerViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B645900B238399AE0069571F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = sohu;
+				TargetAttributes = {
+					B6459012238399AE0069571F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					B645902D238399B00069571F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B6459012238399AE0069571F;
+					};
+					B6459038238399B00069571F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B6459012238399AE0069571F;
+					};
+				};
+			};
+			buildConfigurationList = B645900E238399AE0069571F /* Build configuration list for PBXProject "SINPagerViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B645900A238399AE0069571F;
+			productRefGroup = B6459014238399AE0069571F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6459012238399AE0069571F /* SINPagerViewController */,
+				B645902D238399B00069571F /* SINPagerViewControllerTests */,
+				B6459038238399B00069571F /* SINPagerViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6459011238399AE0069571F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6459026238399B00069571F /* LaunchScreen.storyboard in Resources */,
+				B6459023238399B00069571F /* Assets.xcassets in Resources */,
+				B6459021238399AE0069571F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B645902C238399B00069571F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6459037238399B00069571F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B645900F238399AE0069571F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64590572383D6340069571F /* SINChannelModel.m in Sources */,
+				B64590502383C0DA0069571F /* SINTabFlowLayout.m in Sources */,
+				B645905A2383DB490069571F /* SINPagerConfig.m in Sources */,
+				B645901E238399AE0069571F /* ViewController.m in Sources */,
+				B6459018238399AE0069571F /* AppDelegate.m in Sources */,
+				B645905D238400EF0069571F /* SINPagerViewController.m in Sources */,
+				B645904D23839AFB0069571F /* SINTabView.m in Sources */,
+				B6459060238536570069571F /* ViewController1.m in Sources */,
+				B64590532383C4DB0069571F /* SINTabTextCell.m in Sources */,
+				B6459029238399B00069571F /* main.m in Sources */,
+				B645901B238399AE0069571F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B645902A238399B00069571F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6459033238399B00069571F /* SINPagerViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6459035238399B00069571F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B645903E238399B00069571F /* SINPagerViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6459030238399B00069571F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6459012238399AE0069571F /* SINPagerViewController */;
+			targetProxy = B645902F238399B00069571F /* PBXContainerItemProxy */;
+		};
+		B645903B238399B00069571F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6459012238399AE0069571F /* SINPagerViewController */;
+			targetProxy = B645903A238399B00069571F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B645901F238399AE0069571F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6459020238399AE0069571F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6459024238399B00069571F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6459025238399B00069571F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6459040238399B00069571F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6459041238399B00069571F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6459043238399B00069571F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYAV4WF6VJ;
+				INFOPLIST_FILE = SINPagerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SINPagerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6459044238399B00069571F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYAV4WF6VJ;
+				INFOPLIST_FILE = SINPagerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SINPagerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6459046238399B00069571F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQDU4YLT33;
+				INFOPLIST_FILE = SINPagerViewControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SINPagerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SINPagerViewController.app/SINPagerViewController";
+			};
+			name = Debug;
+		};
+		B6459047238399B00069571F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQDU4YLT33;
+				INFOPLIST_FILE = SINPagerViewControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SINPagerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SINPagerViewController.app/SINPagerViewController";
+			};
+			name = Release;
+		};
+		B6459049238399B00069571F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQDU4YLT33;
+				INFOPLIST_FILE = SINPagerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SINPagerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SINPagerViewController;
+			};
+			name = Debug;
+		};
+		B645904A238399B00069571F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQDU4YLT33;
+				INFOPLIST_FILE = SINPagerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SINPagerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SINPagerViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B645900E238399AE0069571F /* Build configuration list for PBXProject "SINPagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6459040238399B00069571F /* Debug */,
+				B6459041238399B00069571F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6459042238399B00069571F /* Build configuration list for PBXNativeTarget "SINPagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6459043238399B00069571F /* Debug */,
+				B6459044238399B00069571F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6459045238399B00069571F /* Build configuration list for PBXNativeTarget "SINPagerViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6459046238399B00069571F /* Debug */,
+				B6459047238399B00069571F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6459048238399B00069571F /* Build configuration list for PBXNativeTarget "SINPagerViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6459049238399B00069571F /* Debug */,
+				B645904A238399B00069571F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B645900B238399AE0069571F /* Project object */;
+}
